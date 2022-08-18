@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <a href="rms.html"><img align="left" height="120" width="120" src="logo.jpg"> </a>
+
+
+
+
+
+    <h3 align="right"><a href="login.html">Login</a> &nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp <a
+            href="registration.html">Registration</a>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspHotline:+88 01838-685550 </br> +88 01878-592668 <br>
+        Email: tum2022@gmail.com </h3>
+
+
+
+
+
+
+
+
+
+    </br>
+
+
+
+
+    <table border="2" height="50" width="100%">
+
+        <tr height="100%" width="100%">
+
+            <td bgcolor=#00a6cb>
+                <center>
+                    <font size="5">
+                        <b>
+                            <a href="rms.html">Home</a>&nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp
+                            <a href="about.html">About</a> &nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp
+                            <a href="food.html">Foods</a>&nbsp&nbsp&nbsp
+
+                        </b>
+                    </font>
+                </center>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+
+
+
+
+    <table border="0" height="auto" width="100%">
+
+        <tr>
+
+            <td height="20%" width="50%" bgcolor="white">
+
+
+                <form name="myForm" form action="adminregistration.php" onsubmit="return validateForm()" method="post">
+
+                    <center>
+                        </br></br></br>
+                        <font size="6"><u><b>ADMIN REGISTRATION</b></u></font> </br></br>
+
+
+                        <label><b>ADMIN_ID:</b></label>
+                        <input type="text" placeholder="Enter Your user_id" name="aid"> </br></br>
+
+                        <label><b>ADMIN_NAME:</b></label>
+                        <input type="text" placeholder="Enter Your user_name" name="aname"> </br></br>
+
+                        <label><b>EMAIL:</b></label>
+                        <input type="email" placeholder="Enter Your email" name="email"> </br></br>
+
+                        <label><b>ADMIN_ADDRESS:</b></label>
+                        <input type="text" name="adadrs"> </br></br>
+
+                        <label><b>PASSWORD:</b></label>
+                        <input type="password" name="adpass"> </br></br>
+
+                        <label><b>ADMIN_STATUS: </b></label>
+                        <input type="text" name="as"> </br></br>
+
+
+
+
+
+
+
+                        <input type="Submit" style="color:blue" value="submit" name="button">
+                        &nbsp&nbsp&nbsp&nbsp
+
+
+                        <a href="admindata.html">already have an admin account</a></br></br>
+
+
+
+                </form>
+
+
+                <script>
+                    function validateForm() {
+                        let a = document.forms["myForm"]["aid"].value;
+                        if (a == "") {
+                            alert("ADMIN_ID must be filled out");
+                            return false;
+                        }
+
+                        let b = document.forms["myForm"]["aname"].value;
+                        if (b == "") {
+                            alert(" ADMIN Name must be filled out");
+                            return false;
+                        }
+
+                        let c = document.forms["myForm"]["email"].value;
+                        if (c == "") {
+                            alert("Email must be filled out");
+                            return false;
+                        }
+
+                        let d = document.forms["myForm"]["adadrs"].value;
+                        if (d == "") {
+                            alert("ADDRESS must be filled out");
+                            return false;
+                        }
+
+                        let e = document.forms["myForm"]["adpass"].value;
+                        if (e == "") {
+                            alert("PASSWORD must be filled out");
+                            return false;
+                        }
+
+                        let f = document.forms["myForm"]["as"].value;
+                        if (f == "") {
+                            alert("ADMIN STATUS must be filled out");
+                            return false;
+                        }
+                    }
+                </script>
+
+
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+
+
+
+    </br></br></br></br></br></br></br></br></br></br>
+
+
+    <hr>
+
+
+    <table border="0" height="10%" width="100%">
+
+        <tr>
+
+            <td height="20%" width="50%" bgcolor="white">
+
+
+
+
+                <DIV align="right"><a href="rms.html"><img height="200" width="200" src="logo.jpg"></a></DIV>
+
+
+
+
+
+
+
+
+
+            </td>
+
+
+
+
+            <td height="20%" width="50%" bgcolor="white">
+
+                <font size="4">
+                    <DIV align="left">
+                        </br> <b><u> ADDRESS</u></b> </br> </br>
+                    </DIV>
+
+                    76 No, Municipality Street, Narayanganj-1200</br>
+
+                    Phone : 7115067, </br>
+                    Fax : 7173877</br>
+                    Email : tum2022@gmail.com</br></br>
+
+
+
+                </font>
+                </align>
+                </center>
+
+            </td>
+
+        </tr>
+
+    </table>
+    <hr>
+    <h3 align="center">All Rights &copy; TUM </h3>
+
+
+</body>
+
+</html>
